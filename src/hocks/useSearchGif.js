@@ -17,7 +17,7 @@ export const userSearchGif = () => {
   };
 
   const getGifs = async (query) => {
-    const url = `http://api.giphy.com/v1/gifs/search?api_key=4IK2gSMH40XkKifCDL2Z9IrtbA5sORlQ&q=${query}`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=4IK2gSMH40XkKifCDL2Z9IrtbA5sORlQ&q=${query}`;
     setLoad(true)
     // await new Promise(resolve => {
     //   setTimeout(() => {
